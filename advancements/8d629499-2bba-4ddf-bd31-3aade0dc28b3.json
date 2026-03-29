@@ -592,8 +592,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2026-03-28 21:22:32 +0000",
       "minecraft:skeleton": "2026-03-27 17:19:44 +0000",
       "minecraft:phantom": "2026-03-27 18:36:28 +0000",
+      "minecraft:magma_cube": "2026-03-28 21:20:57 +0000",
+      "minecraft:witch": "2026-03-28 22:25:32 +0000",
       "minecraft:spider": "2026-03-27 17:19:41 +0000",
       "minecraft:zombie": "2026-03-27 16:34:03 +0000",
       "minecraft:creeper": "2026-03-27 17:12:42 +0000",
@@ -617,6 +620,7 @@
     "criteria": {
       "cooked_porkchop": "2026-03-27 22:11:50 +0000",
       "apple": "2026-03-28 00:16:27 +0000",
+      "golden_apple": "2026-03-28 23:47:26 +0000",
       "cooked_beef": "2026-03-27 18:17:21 +0000",
       "melon_slice": "2026-03-27 16:56:15 +0000"
     },
@@ -932,27 +936,30 @@
     },
     "done": true
   },
-  "apothic_enchanting:enchanter": {
+  "minecraft:story/upgrade_tools": {
     "criteria": {
-      "enchanting_table": "2026-03-28 01:10:35 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/dragon_banner_pattern": {
-    "criteria": {
-      "has_item_minecraft_paper_1": "2026-03-28 00:42:29 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/crystal_display": {
-    "criteria": {
-      "has_item_minecraft_amethyst_shard_2": "2026-03-27 22:08:19 +0000"
+      "stone_pickaxe": "2026-03-27 19:14:26 +0000"
     },
     "done": true
   },
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2026-03-27 19:37:27 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:progression/ascent": {
+    "criteria": {
+      "uncommon_legs": "2026-03-28 02:46:32 +0000",
+      "uncommon_chest": "2026-03-28 19:41:55 +0000",
+      "uncommon_hand": "2026-03-27 20:16:56 +0000",
+      "uncommon_helm": "2026-03-27 21:21:18 +0000"
+    },
+    "done": false
+  },
+  "exdeorum:core/barrel": {
+    "criteria": {
+      "has_barrel": "2026-03-27 21:18:43 +0000"
     },
     "done": true
   },
@@ -980,82 +987,13 @@
     },
     "done": true
   },
-  "supplementaries:recipe/present": {
-    "criteria": {
-      "has_item_minecraft_paper_1": "2026-03-28 00:42:29 +0000"
-    },
-    "done": true
-  },
-  "exdeorum:core/string_mesh": {
-    "criteria": {
-      "has_string_mesh": "2026-03-28 00:19:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/bred_all_animals": {
-    "criteria": {
-      "minecraft:pig": "2026-03-27 22:57:17 +0000",
-      "minecraft:sheep": "2026-03-28 00:47:33 +0000"
-    },
-    "done": false
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2026-03-27 19:14:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2026-03-28 00:40:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2026-03-27 21:50:31 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/candy": {
-    "criteria": {
-      "has_item_minecraft_paper_2": "2026-03-28 00:42:29 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/lapis_bricks": {
-    "criteria": {
-      "has_item_minecraft_lapis_lazuli_1": "2026-03-27 22:08:10 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:progression/ascent": {
-    "criteria": {
-      "uncommon_legs": "2026-03-28 02:46:32 +0000",
-      "uncommon_hand": "2026-03-27 20:16:56 +0000",
-      "uncommon_helm": "2026-03-27 21:21:18 +0000"
-    },
-    "done": false
-  },
-  "supplementaries:recipe/gravel_bricks": {
-    "criteria": {
-      "has_item_minecraft_gravel_1": "2026-03-27 22:04:54 +0000"
-    },
-    "done": true
-  },
-  "exdeorum:core/barrel": {
-    "criteria": {
-      "has_barrel": "2026-03-27 21:18:43 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/integration/planter_rich_fd": {
-    "criteria": {
-      "has_item_minecraft_bone_meal_2": "2026-03-27 22:57:37 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipe/key": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-03-27 21:41:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_bars": {
     "criteria": {
       "has_tag_c_ingots_gold_1": "2026-03-27 21:41:29 +0000"
     },
@@ -1067,9 +1005,27 @@
     },
     "done": true
   },
-  "supplementaries:recipe/daub": {
+  "minecraft:adventure/ol_betsy": {
     "criteria": {
-      "has_tag_supplementaries_straw_2": "2026-03-27 22:55:52 +0000"
+      "shot_crossbow": "2026-03-27 21:50:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-03-27 21:50:31 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gravel_bricks": {
+    "criteria": {
+      "has_item_minecraft_gravel_1": "2026-03-27 22:04:54 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lapis_bricks": {
+    "criteria": {
+      "has_item_minecraft_lapis_lazuli_1": "2026-03-27 22:08:10 +0000"
     },
     "done": true
   },
@@ -1079,15 +1035,70 @@
     },
     "done": true
   },
+  "supplementaries:recipe/crystal_display": {
+    "criteria": {
+      "has_item_minecraft_amethyst_shard_2": "2026-03-27 22:08:19 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub": {
+    "criteria": {
+      "has_tag_supplementaries_straw_2": "2026-03-27 22:55:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:pig": "2026-03-27 22:57:17 +0000",
+      "minecraft:sheep": "2026-03-28 00:47:33 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2026-03-27 22:57:17 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/planter_rich_fd": {
+    "criteria": {
+      "has_item_minecraft_bone_meal_2": "2026-03-27 22:57:37 +0000"
+    },
+    "done": true
+  },
+  "exdeorum:core/string_mesh": {
+    "criteria": {
+      "has_string_mesh": "2026-03-28 00:19:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-03-28 00:40:36 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "sugar_cane": "2026-03-28 00:41:04 +0000"
     },
     "done": false
   },
-  "minecraft:adventure/ol_betsy": {
+  "supplementaries:recipe/dragon_banner_pattern": {
     "criteria": {
-      "shot_crossbow": "2026-03-27 21:50:26 +0000"
+      "has_item_minecraft_paper_1": "2026-03-28 00:42:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/present": {
+    "criteria": {
+      "has_item_minecraft_paper_1": "2026-03-28 00:42:29 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/candy": {
+    "criteria": {
+      "has_item_minecraft_paper_2": "2026-03-28 00:42:29 +0000"
     },
     "done": true
   },
@@ -1103,15 +1114,201 @@
     },
     "done": true
   },
-  "supplementaries:recipe/gold_bars": {
+  "apothic_enchanting:enchanter": {
     "criteria": {
-      "has_tag_c_ingots_gold_1": "2026-03-27 21:41:29 +0000"
+      "enchanting_table": "2026-03-28 01:10:35 +0000"
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
+  "create:copper": {
     "criteria": {
-      "bred": "2026-03-27 22:57:17 +0000"
+      "0": "2026-03-28 19:53:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/wrench": {
+    "criteria": {
+      "has_tag_c_ingots_copper_1": "2026-03-28 19:53:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/cog_block": {
+    "criteria": {
+      "has_tag_c_ingots_copper_1": "2026-03-28 19:53:05 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2026-03-28 19:53:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fire_pit": {
+    "criteria": {
+      "has_tag_c_ingots_copper_2": "2026-03-28 19:53:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/altimeter": {
+    "criteria": {
+      "has_tag_c_ingots_copper_1": "2026-03-28 19:53:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "tomato_seeds": "2026-03-28 20:07:45 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_lore": {
+    "criteria": {
+      "has_item_minecraft_name_tag_1": "2026-03-28 20:07:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2026-03-28 20:13:14 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:loved_by_piglins": {
+    "criteria": {
+      "armor": "2026-03-28 20:15:09 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:alternate_armor": {
+    "criteria": {
+      "armor": "2026-03-28 20:15:09 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/soap/tipped_arrow": {
+    "criteria": {
+      "has_item_minecraft_tipped_arrow_1": "2026-03-28 20:17:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-03-28 20:24:19 +0000"
+    },
+    "done": true
+  },
+  "apothic_enchanting:bookshelf": {
+    "criteria": {
+      "bookshelf": "2026-03-28 20:48:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-03-28 20:52:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-03-28 21:15:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-03-28 21:15:24 +0000"
+    },
+    "done": true
+  },
+  "silentgear:nether": {
+    "criteria": {
+      "entered_nether": "2026-03-28 21:15:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2026-03-28 21:15:25 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-03-28 22:00:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-03-28 22:03:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/froglights": {
+    "criteria": {
+      "froglights": "2026-03-28 22:03:14 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/integration/pancake_fd": {
+    "criteria": {
+      "has_item_minecraft_sugar_1": "2026-03-28 22:04:21 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sugar_cube": {
+    "criteria": {
+      "has_item_minecraft_sugar_1": "2026-03-28 22:04:21 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sconce_lever": {
+    "criteria": {
+      "has_item_minecraft_redstone_2": "2026-03-28 22:08:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/redstone_illuminator": {
+    "criteria": {
+      "has_item_minecraft_redstone_1": "2026-03-28 22:08:05 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "has_item": "2026-03-28 22:10:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-03-28 22:53:31 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:novice_spell_book": {
+    "criteria": {
+      "has_novice_spell_book": "2026-03-28 22:53:44 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:root": {
+    "criteria": {
+      "0": "2026-03-28 23:42:10 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:programming_puzzle": {
+    "criteria": {
+      "0": "2026-03-28 23:47:33 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pressure_tube": {
+    "criteria": {
+      "0": "2026-03-28 23:54:16 +0000"
     },
     "done": true
   },

@@ -607,6 +607,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2026-03-27 16:27:57 +0000",
+      "potato": "2026-03-28 21:08:08 +0000",
       "cooked_beef": "2026-03-27 19:47:25 +0000",
       "baked_potato": "2026-03-27 20:51:21 +0000",
       "melon_slice": "2026-03-27 16:39:50 +0000"
@@ -733,45 +734,63 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2026-03-27 19:12:27 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:progression/haven": {
+    "criteria": {
+      "affixed": "2026-03-27 20:11:29 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:progression/frontier": {
+    "criteria": {
+      "common_hand": "2026-03-28 10:38:10 +0000",
+      "common_chest": "2026-03-27 20:11:34 +0000"
+    },
+    "done": false
+  },
   "apothic_spawners:capturing": {
     "criteria": {
       "egg": "2026-03-27 20:29:35 +0000"
     },
     "done": true
   },
-  "supplementaries:recipe/crystal_display": {
+  "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "has_item_minecraft_amethyst_shard_2": "2026-03-27 20:44:14 +0000"
+      "minecraft:skeleton": "2026-03-28 03:15:38 +0000",
+      "minecraft:phantom": "2026-03-27 20:29:35 +0000",
+      "minecraft:magma_cube": "2026-03-28 21:29:01 +0000",
+      "minecraft:zombie": "2026-03-28 03:15:42 +0000",
+      "minecraft:creeper": "2026-03-28 03:15:46 +0000",
+      "minecraft:zombie_villager": "2026-03-28 19:44:37 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:phantom": "2026-03-27 20:29:35 +0000"
     },
     "done": true
   },
-  "integrateddynamics:root": {
+  "supplementaries:recipe/confetti_popper": {
     "criteria": {
-      "criteria_0": "2026-03-28 03:21:49 +0000"
+      "has_item_minecraft_gunpowder_2": "2026-03-27 20:29:50 +0000"
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
+  "supplementaries:recipe/spring_launcher": {
     "criteria": {
-      "lava_bucket": "2026-03-28 09:23:26 +0000"
+      "has_item_minecraft_gunpowder_4": "2026-03-27 20:29:50 +0000"
     },
     "done": true
   },
   "supplementaries:recipe/candle_holders/candle_holder_green": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-03-27 20:34:05 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/gold_door": {
-    "criteria": {
-      "has_tag_c_ingots_gold_1": "2026-03-28 02:36:58 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/stonecutting/stone_tile": {
-    "criteria": {
-      "has_item_minecraft_stone_bricks_1": "2026-03-28 09:35:03 +0000"
     },
     "done": true
   },
@@ -787,39 +806,9 @@
     },
     "done": true
   },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2026-03-27 21:38:19 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/gold_trapdoor": {
-    "criteria": {
-      "has_tag_c_ingots_gold_1": "2026-03-28 02:36:58 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/hourglass": {
-    "criteria": {
-      "has_tag_c_ingots_gold_2": "2026-03-28 02:36:58 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/soap": {
-    "criteria": {
-      "has_item_minecraft_water_bucket_1": "2026-03-28 09:23:32 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipe/candle_holders/candle_holder_yellow": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-03-27 20:34:05 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:root": {
-    "criteria": {
-      "0": "2026-03-28 03:17:02 +0000"
     },
     "done": true
   },
@@ -829,57 +818,15 @@
     },
     "done": true
   },
-  "supplementaries:recipe/lumisene_bucket": {
-    "criteria": {
-      "has_item_minecraft_bucket_2": "2026-03-28 09:23:22 +0000"
-    },
-    "done": true
-  },
-  "create:copper": {
-    "criteria": {
-      "0": "2026-03-27 20:59:25 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipe/candle_holders/candle_holder_light_gray": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-03-27 20:34:05 +0000"
     },
     "done": true
   },
-  "supplementaries:recipe/wrench": {
-    "criteria": {
-      "has_tag_c_ingots_copper_1": "2026-03-27 20:59:25 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/pedestal": {
-    "criteria": {
-      "has_item_minecraft_stone_bricks_2": "2026-03-28 09:35:03 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/stone_tile": {
-    "criteria": {
-      "has_item_minecraft_stone_bricks_1": "2026-03-28 09:35:03 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/cog_block": {
-    "criteria": {
-      "has_tag_c_ingots_copper_1": "2026-03-27 20:59:25 +0000"
-    },
-    "done": true
-  },
   "exmachinis:root": {
     "criteria": {
       "item": "2026-03-27 20:34:05 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/sconce_lever": {
-    "criteria": {
-      "has_item_minecraft_redstone_2": "2026-03-27 21:30:45 +0000"
     },
     "done": true
   },
@@ -895,27 +842,9 @@
     },
     "done": true
   },
-  "supplementaries:recipe/lapis_bricks": {
-    "criteria": {
-      "has_item_minecraft_lapis_lazuli_1": "2026-03-27 21:19:07 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/sus_bricks": {
-    "criteria": {
-      "has_item_supplementaries_gravel_bricks_1": "2026-03-28 10:10:23 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipe/candle_holders/candle_holder_lime": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-03-27 20:34:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2026-03-27 19:12:27 +0000"
     },
     "done": true
   },
@@ -924,15 +853,6 @@
       "has_tag_c_ingots_iron_1": "2026-03-27 20:34:05 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2026-03-28 03:15:38 +0000",
-      "minecraft:phantom": "2026-03-27 20:29:35 +0000",
-      "minecraft:zombie": "2026-03-28 03:15:42 +0000",
-      "minecraft:creeper": "2026-03-28 03:15:46 +0000"
-    },
-    "done": false
   },
   "supplementaries:recipe/candle_holders/candle_holder_blue": {
     "criteria": {
@@ -952,18 +872,6 @@
     },
     "done": true
   },
-  "supplementaries:recipe/confetti_popper": {
-    "criteria": {
-      "has_item_minecraft_gunpowder_2": "2026-03-27 20:29:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:phantom": "2026-03-27 20:29:35 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipe/candle_holders/candle_holder_orange": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-03-27 20:34:05 +0000"
@@ -973,30 +881,6 @@
   "supplementaries:recipe/candle_holders/candle_holder_red": {
     "criteria": {
       "has_tag_c_ingots_iron_2": "2026-03-27 20:34:05 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/redstone_illuminator": {
-    "criteria": {
-      "has_item_minecraft_redstone_1": "2026-03-27 21:30:45 +0000"
-    },
-    "done": true
-  },
-  "ae2:main/root": {
-    "criteria": {
-      "copper": "2026-03-27 20:59:25 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/fire_pit": {
-    "criteria": {
-      "has_tag_c_ingots_copper_2": "2026-03-27 20:59:25 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:progression/haven": {
-    "criteria": {
-      "affixed": "2026-03-27 20:11:29 +0000"
     },
     "done": true
   },
@@ -1018,27 +902,51 @@
     },
     "done": true
   },
+  "supplementaries:recipe/candle_holders/candle_holder_pink": {
+    "criteria": {
+      "has_tag_c_ingots_iron_2": "2026-03-27 20:34:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/crystal_display": {
+    "criteria": {
+      "has_item_minecraft_amethyst_shard_2": "2026-03-27 20:44:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2026-03-27 20:44:24 +0000"
     },
     "done": true
   },
-  "apotheosis:progression/frontier": {
+  "create:copper": {
     "criteria": {
-      "common_chest": "2026-03-27 20:11:34 +0000"
-    },
-    "done": false
-  },
-  "supplementaries:recipe/spring_launcher": {
-    "criteria": {
-      "has_item_minecraft_gunpowder_4": "2026-03-27 20:29:50 +0000"
+      "0": "2026-03-27 20:59:25 +0000"
     },
     "done": true
   },
-  "integrateddynamics:meneglin_basics/squeezing": {
+  "supplementaries:recipe/wrench": {
     "criteria": {
-      "criteria_0": "2026-03-28 03:21:49 +0000"
+      "has_tag_c_ingots_copper_1": "2026-03-27 20:59:25 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/cog_block": {
+    "criteria": {
+      "has_tag_c_ingots_copper_1": "2026-03-27 20:59:25 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2026-03-27 20:59:25 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fire_pit": {
+    "criteria": {
+      "has_tag_c_ingots_copper_2": "2026-03-27 20:59:25 +0000"
     },
     "done": true
   },
@@ -1048,21 +956,177 @@
     },
     "done": true
   },
+  "supplementaries:recipe/lapis_bricks": {
+    "criteria": {
+      "has_item_minecraft_lapis_lazuli_1": "2026-03-27 21:19:07 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sconce_lever": {
+    "criteria": {
+      "has_item_minecraft_redstone_2": "2026-03-27 21:30:45 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/redstone_illuminator": {
+    "criteria": {
+      "has_item_minecraft_redstone_1": "2026-03-27 21:30:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-03-27 21:38:19 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_door": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-03-28 02:36:58 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_trapdoor": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-03-28 02:36:58 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/hourglass": {
+    "criteria": {
+      "has_tag_c_ingots_gold_2": "2026-03-28 02:36:58 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipe/gold_bars": {
     "criteria": {
       "has_tag_c_ingots_gold_1": "2026-03-28 02:36:58 +0000"
     },
     "done": true
   },
-  "supplementaries:recipe/candle_holders/candle_holder_pink": {
+  "pneumaticcraft:root": {
     "criteria": {
-      "has_tag_c_ingots_iron_2": "2026-03-27 20:34:05 +0000"
+      "0": "2026-03-28 03:17:02 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2026-03-28 03:21:49 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/squeezing": {
+    "criteria": {
+      "criteria_0": "2026-03-28 03:21:49 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lumisene_bucket": {
+    "criteria": {
+      "has_item_minecraft_bucket_2": "2026-03-28 09:23:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-03-28 09:23:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/soap": {
+    "criteria": {
+      "has_item_minecraft_water_bucket_1": "2026-03-28 09:23:32 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stonecutting/stone_tile": {
+    "criteria": {
+      "has_item_minecraft_stone_bricks_1": "2026-03-28 09:35:03 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/pedestal": {
+    "criteria": {
+      "has_item_minecraft_stone_bricks_2": "2026-03-28 09:35:03 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/stone_tile": {
+    "criteria": {
+      "has_item_minecraft_stone_bricks_1": "2026-03-28 09:35:03 +0000"
     },
     "done": true
   },
   "ae2:main/charged_quartz": {
     "criteria": {
       "certus": "2026-03-28 10:02:58 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sus_bricks": {
+    "criteria": {
+      "has_item_supplementaries_gravel_bricks_1": "2026-03-28 10:10:23 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_cube": {
+    "criteria": {
+      "basic_energy_cube": "2026-03-28 23:56:12 +0000"
+    },
+    "done": true
+  },
+  "mekanism:steel_casing": {
+    "criteria": {
+      "steel_casing": "2026-03-28 23:56:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2026-03-28 21:15:25 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-03-28 21:15:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-03-28 21:15:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-03-28 19:48:36 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/candy": {
+    "criteria": {
+      "has_item_minecraft_honey_bottle_3": "2026-03-28 19:39:30 +0000"
+    },
+    "done": true
+  },
+  "silentgear:nether": {
+    "criteria": {
+      "entered_nether": "2026-03-28 21:15:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-03-28 10:53:57 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope_arrow_create": {
+    "criteria": {
+      "has_item_minecraft_arrow_1": "2026-03-28 19:39:30 +0000"
     },
     "done": true
   },
