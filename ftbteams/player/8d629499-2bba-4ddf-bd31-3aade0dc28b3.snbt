@@ -2,9 +2,7 @@
 	id: "8d629499-2bba-4ddf-bd31-3aade0dc28b3"
 	type: "player"
 	player_name: "nevertobe"
-	ranks: {
-		8d629499-2bba-4ddf-bd31-3aade0dc28b3: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "nevertobe"
 		"ftbteams:description": ""
