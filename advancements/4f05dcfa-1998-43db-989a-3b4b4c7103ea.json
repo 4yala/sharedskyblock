@@ -148,6 +148,7 @@
       "minecraft:forest": "2026-03-27 15:43:00 +0000",
       "minecraft:deep_dark": "2026-03-27 15:45:19 +0000",
       "minecraft:river": "2026-03-27 15:41:20 +0000",
+      "minecraft:birch_forest": "2026-03-30 18:23:58 +0100",
       "minecraft:dripstone_caves": "2026-03-27 15:45:17 +0000",
       "minecraft:plains": "2026-03-27 16:34:30 +0000"
     },
@@ -607,10 +608,12 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2026-03-27 16:27:57 +0000",
+      "golden_apple": "2026-03-30 18:52:12 +0100",
       "potato": "2026-03-28 21:08:08 +0000",
       "cooked_beef": "2026-03-27 19:47:25 +0000",
       "baked_potato": "2026-03-27 20:51:21 +0000",
-      "melon_slice": "2026-03-27 16:39:50 +0000"
+      "melon_slice": "2026-03-27 16:39:50 +0000",
+      "carrot": "2026-03-30 19:16:29 +0100"
     },
     "done": false
   },
@@ -761,13 +764,18 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2026-03-30 17:53:58 +0100",
       "minecraft:skeleton": "2026-03-28 03:15:38 +0000",
       "minecraft:phantom": "2026-03-27 20:29:35 +0000",
+      "minecraft:silverfish": "2026-03-30 23:39:16 +0100",
       "minecraft:magma_cube": "2026-03-28 21:29:01 +0000",
       "minecraft:witch": "2026-03-29 18:20:03 +0100",
+      "minecraft:spider": "2026-03-31 00:12:34 +0100",
+      "minecraft:wither_skeleton": "2026-03-30 17:53:47 +0100",
       "minecraft:zombie": "2026-03-28 03:15:42 +0000",
       "minecraft:creeper": "2026-03-28 03:15:46 +0000",
-      "minecraft:zombie_villager": "2026-03-28 19:44:37 +0000"
+      "minecraft:zombie_villager": "2026-03-28 19:44:37 +0000",
+      "minecraft:ghast": "2026-03-30 18:19:01 +0100"
     },
     "done": false
   },
@@ -1428,6 +1436,168 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2026-03-30 16:19:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-03-30 17:55:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-03-30 18:03:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2026-03-30 18:21:54 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flute": {
+    "criteria": {
+      "has_item_minecraft_bamboo_1": "2026-03-30 19:04:08 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/lunch_basket": {
+    "criteria": {
+      "has_item_minecraft_bamboo_2": "2026-03-30 19:04:08 +0100"
+    },
+    "done": true
+  },
+  "ars_nouveau:imbuement_chamber": {
+    "criteria": {
+      "has_imbuement_chamber": "2026-03-30 20:32:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-03-30 20:57:37 +0100"
+    },
+    "done": true
+  },
+  "ars_nouveau:source_jar": {
+    "criteria": {
+      "has_source_jar": "2026-03-30 21:04:08 +0100"
+    },
+    "done": true
+  },
+  "constructionstick:iron_stick": {
+    "criteria": {
+      "iron_stick": "2026-03-30 21:20:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:oritech/overenchanted": {
+    "criteria": {
+      "got_overenchanted": "2026-03-30 22:03:27 +0100"
+    },
+    "done": true
+  },
+  "ars_nouveau:ritual_brazier": {
+    "criteria": {
+      "has_ritual_brazier": "2026-03-30 22:14:35 +0100"
+    },
+    "done": true
+  },
+  "apothic_spawners:root": {
+    "criteria": {
+      "spawner": "2026-03-30 23:40:11 +0100"
+    },
+    "done": true
+  },
+  "apothic_spawners:noai": {
+    "criteria": {
+      "modifier": "2026-03-30 23:44:05 +0100"
+    },
+    "done": true
+  },
+  "apothic_spawners:modifier": {
+    "criteria": {
+      "modifier": "2026-03-30 23:44:05 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/fodder": {
+    "criteria": {
+      "has_item_minecraft_hay_block_1": "2026-03-31 00:27:15 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2026-03-31 00:45:37 +0100"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2026-03-31 00:45:37 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/feather_block": {
+    "criteria": {
+      "has_item_minecraft_feather_1": "2026-03-31 00:56:38 +0100"
+    },
+    "done": true
+  },
+  "mekanism:metallurgic_infuser": {
+    "criteria": {
+      "metallurgic_infuser": "2026-03-31 01:07:48 +0100"
+    },
+    "done": true
+  },
+  "mekanism:basic_control_circuit": {
+    "criteria": {
+      "basic_control_circuit": "2026-03-31 01:10:00 +0100"
+    },
+    "done": true
+  },
+  "mekanism:factory": {
+    "criteria": {
+      "factory": "2026-03-31 01:18:21 +0100"
+    },
+    "done": true
+  },
+  "mekanismtools:alternate_armor": {
+    "criteria": {
+      "armor": "2026-03-31 01:26:54 +0100"
+    },
+    "done": true
+  },
+  "mekanismtools:better_than_netherite": {
+    "criteria": {
+      "armor": "2026-03-31 01:26:54 +0100"
+    },
+    "done": true
+  },
+  "mekanism:infused_alloy": {
+    "criteria": {
+      "alloy_infused": "2026-03-31 01:33:08 +0100"
+    },
+    "done": true
+  },
+  "mekanism:advanced_control_circuit": {
+    "criteria": {
+      "advanced_control_circuit": "2026-03-31 01:35:48 +0100"
+    },
+    "done": true
+  },
+  "mekanism:reinforced_alloy": {
+    "criteria": {
+      "alloy_reinforced": "2026-03-31 01:42:35 +0100"
+    },
+    "done": true
+  },
+  "mekanism:elite_control_circuit": {
+    "criteria": {
+      "elite_control_circuit": "2026-03-31 01:55:42 +0100"
     },
     "done": true
   },
