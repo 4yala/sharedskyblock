@@ -609,6 +609,7 @@
     "criteria": {
       "apple": "2026-03-27 16:27:57 +0000",
       "golden_apple": "2026-03-30 18:52:12 +0100",
+      "cooked_mutton": "2026-04-01 03:19:20 +0100",
       "potato": "2026-03-28 21:08:08 +0000",
       "cooked_beef": "2026-03-27 19:47:25 +0000",
       "baked_potato": "2026-03-27 20:51:21 +0000",
@@ -767,15 +768,16 @@
       "minecraft:blaze": "2026-03-30 17:53:58 +0100",
       "minecraft:skeleton": "2026-03-28 03:15:38 +0000",
       "minecraft:phantom": "2026-03-27 20:29:35 +0000",
+      "minecraft:witch": "2026-03-29 18:20:03 +0100",
+      "minecraft:wither_skeleton": "2026-03-30 17:53:47 +0100",
+      "minecraft:ghast": "2026-03-30 18:19:01 +0100",
       "minecraft:silverfish": "2026-03-30 23:39:16 +0100",
       "minecraft:magma_cube": "2026-03-28 21:29:01 +0000",
-      "minecraft:witch": "2026-03-29 18:20:03 +0100",
       "minecraft:spider": "2026-03-31 00:12:34 +0100",
-      "minecraft:wither_skeleton": "2026-03-30 17:53:47 +0100",
       "minecraft:zombie": "2026-03-28 03:15:42 +0000",
       "minecraft:creeper": "2026-03-28 03:15:46 +0000",
-      "minecraft:zombie_villager": "2026-03-28 19:44:37 +0000",
-      "minecraft:ghast": "2026-03-30 18:19:01 +0100"
+      "minecraft:drowned": "2026-04-01 06:51:21 +0100",
+      "minecraft:zombie_villager": "2026-03-28 19:44:37 +0000"
     },
     "done": false
   },
@@ -1600,6 +1602,42 @@
       "elite_control_circuit": "2026-03-31 01:55:42 +0100"
     },
     "done": true
+  },
+  "apothic_enchanting:30ench": {
+    "criteria": {
+      "enchanted_item": "2026-03-31 19:40:50 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning_light_blue": {
+    "criteria": {
+      "has_tag_c_dyes_light_blue_2": "2026-03-31 18:53:36 +0100"
+    },
+    "done": true
+  },
+  "ars_nouveau:enchanting_apparatus": {
+    "criteria": {
+      "has_enchanting_apparatus": "2026-04-01 02:19:56 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/buntings/bunting_light_blue": {
+    "criteria": {
+      "has_tag_c_dyes_light_blue_2": "2026-03-31 18:53:36 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/candle_holders/candle_holder_light_blue_dye": {
+    "criteria": {
+      "has_tag_c_dyes_light_blue_1": "2026-03-31 18:53:36 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:progression/ascent": {
+    "criteria": {
+      "uncommon_hand": "2026-04-01 00:21:31 +0100"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
