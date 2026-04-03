@@ -596,11 +596,13 @@
       "minecraft:skeleton": "2026-03-27 17:19:44 +0000",
       "minecraft:phantom": "2026-03-27 18:36:28 +0000",
       "minecraft:zombified_piglin": "2026-03-30 18:07:44 +0100",
-      "minecraft:silverfish": "2026-03-30 23:39:19 +0100",
-      "minecraft:magma_cube": "2026-03-28 21:20:57 +0000",
       "minecraft:witch": "2026-03-28 22:25:32 +0000",
-      "minecraft:spider": "2026-03-27 17:19:41 +0000",
       "minecraft:wither_skeleton": "2026-03-30 17:54:59 +0100",
+      "minecraft:piglin": "2026-04-03 03:19:05 +0100",
+      "minecraft:silverfish": "2026-03-30 23:39:19 +0100",
+      "minecraft:enderman": "2026-04-03 01:00:10 +0100",
+      "minecraft:magma_cube": "2026-03-28 21:20:57 +0000",
+      "minecraft:spider": "2026-03-27 17:19:41 +0000",
       "minecraft:zombie": "2026-03-27 16:34:03 +0000",
       "minecraft:creeper": "2026-03-27 17:12:42 +0000",
       "minecraft:zombie_villager": "2026-03-28 02:57:08 +0000"
@@ -624,6 +626,7 @@
       "cooked_porkchop": "2026-03-27 22:11:50 +0000",
       "apple": "2026-03-28 00:16:27 +0000",
       "golden_apple": "2026-03-28 23:47:26 +0000",
+      "bread": "2026-04-03 01:46:04 +0100",
       "cooked_chicken": "2026-03-31 01:37:14 +0100",
       "enchanted_golden_apple": "2026-03-30 17:54:39 +0100",
       "cooked_mutton": "2026-03-30 18:45:42 +0100",
@@ -959,11 +962,12 @@
     "criteria": {
       "uncommon_legs": "2026-03-28 02:46:32 +0000",
       "uncommon_chest": "2026-03-28 19:41:55 +0000",
+      "kill_apothic_invader": "2026-04-03 03:19:05 +0100",
       "uncommon_hand": "2026-03-27 20:16:56 +0000",
       "uncommon_helm": "2026-03-27 21:21:18 +0000",
       "uncommon_feet": "2026-03-30 18:49:13 +0100"
     },
-    "done": false
+    "done": true
   },
   "exdeorum:core/barrel": {
     "criteria": {
@@ -1090,7 +1094,8 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "sugar_cane": "2026-03-28 00:41:04 +0000"
+      "sugar_cane": "2026-03-28 00:41:04 +0000",
+      "nether_wart": "2026-04-03 02:14:04 +0100"
     },
     "done": false
   },
@@ -1535,7 +1540,11 @@
   },
   "apotheosis:progression/summit": {
     "criteria": {
-      "rare_legs": "2026-03-30 18:41:23 +0100"
+      "rare_legs": "2026-03-30 18:41:23 +0100",
+      "rare_chest": "2026-04-03 03:08:37 +0100",
+      "rare_hand": "2026-04-03 03:27:42 +0100",
+      "rare_helm": "2026-04-03 03:31:50 +0100",
+      "rare_feet": "2026-04-03 03:33:12 +0100"
     },
     "done": false
   },
@@ -1593,6 +1602,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2026-03-31 00:48:08 +0100"
+    },
+    "done": true
+  },
   "supplementaries:recipe/awnings/awning_light_blue": {
     "criteria": {
       "has_tag_c_dyes_light_blue_2": "2026-03-31 00:48:29 +0100"
@@ -1605,9 +1620,9 @@
     },
     "done": true
   },
-  "mekanism:advanced_control_circuit": {
+  "supplementaries:recipe/candle_holders/candle_holder_light_blue_dye": {
     "criteria": {
-      "advanced_control_circuit": "2026-03-31 01:37:28 +0100"
+      "has_tag_c_dyes_light_blue_1": "2026-03-31 00:48:29 +0100"
     },
     "done": true
   },
@@ -1617,27 +1632,9 @@
     },
     "done": true
   },
-  "supplementaries:recipe/candle_holders/candle_holder_light_blue_dye": {
-    "criteria": {
-      "has_tag_c_dyes_light_blue_1": "2026-03-31 00:48:29 +0100"
-    },
-    "done": true
-  },
   "supplementaries:recipe/awnings/awning_cyan": {
     "criteria": {
       "has_tag_c_dyes_cyan_2": "2026-03-31 01:30:29 +0100"
-    },
-    "done": true
-  },
-  "mekanism:infused_alloy": {
-    "criteria": {
-      "alloy_infused": "2026-03-31 01:37:28 +0100"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_boots": "2026-03-31 00:48:08 +0100"
     },
     "done": true
   },
@@ -1650,6 +1647,88 @@
   "supplementaries:recipe/buntings/bunting_cyan": {
     "criteria": {
       "has_tag_c_dyes_cyan_2": "2026-03-31 01:30:29 +0100"
+    },
+    "done": true
+  },
+  "mekanism:advanced_control_circuit": {
+    "criteria": {
+      "advanced_control_circuit": "2026-03-31 01:37:28 +0100"
+    },
+    "done": true
+  },
+  "mekanism:infused_alloy": {
+    "criteria": {
+      "alloy_infused": "2026-03-31 01:37:28 +0100"
+    },
+    "done": true
+  },
+  "mekanism:elite_control_circuit": {
+    "criteria": {
+      "elite_control_circuit": "2026-04-03 00:09:09 +0100"
+    },
+    "done": true
+  },
+  "mekanism:reinforced_alloy": {
+    "criteria": {
+      "alloy_reinforced": "2026-04-03 00:09:09 +0100"
+    },
+    "done": true
+  },
+  "modern_industrialization:forge_hammer": {
+    "criteria": {
+      "checkInv": "2026-04-03 02:23:23 +0100"
+    },
+    "done": true
+  },
+  "silentgear:the_end": {
+    "criteria": {
+      "entered_the_end": "2026-04-03 00:59:00 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sus_bricks": {
+    "criteria": {
+      "has_item_supplementaries_gravel_bricks_1": "2026-04-03 01:49:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-04-03 00:59:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "nether_wart": "2026-04-03 02:14:04 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:progression/pinnacle": {
+    "criteria": {
+      "epic_legs": "2026-04-03 03:27:24 +0100",
+      "epic_feet": "2026-04-03 03:33:12 +0100",
+      "epic_hand": "2026-04-03 03:27:42 +0100",
+      "epic_helm": "2026-04-03 04:24:55 +0100",
+      "epic_chest": "2026-04-03 03:08:37 +0100"
+    },
+    "done": false
+  },
+  "constructionstick:template_angel": {
+    "criteria": {
+      "template_angel": "2026-04-03 02:11:05 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/statue": {
+    "criteria": {
+      "has_item_minecraft_smooth_stone_slab_2": "2026-04-03 00:36:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-04-03 00:59:00 +0100"
     },
     "done": true
   },

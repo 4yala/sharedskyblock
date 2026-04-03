@@ -2,9 +2,7 @@
 	id: "6400eb6a-305b-40cf-a314-5cf7ef28769a"
 	type: "player"
 	player_name: "aayala"
-	ranks: {
-		6400eb6a-305b-40cf-a314-5cf7ef28769a: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "aayala"
 		"ftbteams:description": ""

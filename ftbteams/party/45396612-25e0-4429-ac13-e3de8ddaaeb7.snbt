@@ -5,6 +5,7 @@
 	ranks: {
 		4f05dcfa-1998-43db-989a-3b4b4c7103ea: "owner"
 		8d629499-2bba-4ddf-bd31-3aade0dc28b3: "member"
+		6400eb6a-305b-40cf-a314-5cf7ef28769a: "member"
 	}
 	properties: {
 		"ftbteams:display_name": "kenrock566's Party"
@@ -30,6 +31,8 @@
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1774815619675L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"kenrock566\"],\"color\":\"yellow\"}" }
 		{ from: "4f05dcfa-1998-43db-989a-3b4b4c7103ea", date: 1774815619697L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"nevertobe\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1774815622987L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"nevertobe\"],\"color\":\"green\"}" }
+		{ from: "4f05dcfa-1998-43db-989a-3b4b4c7103ea", date: 1775171196100L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"aayala\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1775171202351L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"aayala\"],\"color\":\"green\"}" }
 	]
 	extra: { }
 }

@@ -752,10 +752,13 @@
   },
   "apotheosis:progression/frontier": {
     "criteria": {
+      "common_helm": "2026-04-03 02:44:34 +0100",
       "common_hand": "2026-03-28 10:38:10 +0000",
-      "common_chest": "2026-03-27 20:11:34 +0000"
+      "common_chest": "2026-03-27 20:11:34 +0000",
+      "common_legs": "2026-04-03 02:44:34 +0100",
+      "common_feet": "2026-04-03 02:44:34 +0100"
     },
-    "done": false
+    "done": true
   },
   "apothic_spawners:capturing": {
     "criteria": {
@@ -1533,7 +1536,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2026-03-31 00:45:37 +0100"
+      "minecraft:cow": "2026-03-31 00:45:37 +0100",
+      "minecraft:chicken": "2026-04-03 01:30:21 +0100"
     },
     "done": false
   },
@@ -1603,21 +1607,9 @@
     },
     "done": true
   },
-  "apothic_enchanting:30ench": {
-    "criteria": {
-      "enchanted_item": "2026-03-31 19:40:50 +0100"
-    },
-    "done": true
-  },
   "supplementaries:recipe/awnings/awning_light_blue": {
     "criteria": {
       "has_tag_c_dyes_light_blue_2": "2026-03-31 18:53:36 +0100"
-    },
-    "done": true
-  },
-  "ars_nouveau:enchanting_apparatus": {
-    "criteria": {
-      "has_enchanting_apparatus": "2026-04-01 02:19:56 +0100"
     },
     "done": true
   },
@@ -1633,11 +1625,70 @@
     },
     "done": true
   },
+  "apothic_enchanting:30ench": {
+    "criteria": {
+      "enchanted_item": "2026-03-31 19:40:50 +0100"
+    },
+    "done": true
+  },
   "apotheosis:progression/ascent": {
     "criteria": {
-      "uncommon_hand": "2026-04-01 00:21:31 +0100"
+      "uncommon_legs": "2026-04-03 02:44:34 +0100",
+      "uncommon_hand": "2026-04-01 00:21:31 +0100",
+      "uncommon_helm": "2026-04-03 02:44:34 +0100",
+      "uncommon_feet": "2026-04-03 04:11:45 +0100"
     },
     "done": false
+  },
+  "ars_nouveau:enchanting_apparatus": {
+    "criteria": {
+      "has_enchanting_apparatus": "2026-04-01 02:19:56 +0100"
+    },
+    "done": true
+  },
+  "silentgear:the_end": {
+    "criteria": {
+      "entered_the_end": "2026-04-03 00:59:48 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:progression/summit": {
+    "criteria": {
+      "rare_hand": "2026-04-03 04:14:41 +0100",
+      "rare_feet": "2026-04-03 04:11:45 +0100"
+    },
+    "done": false
+  },
+  "mekanismtools:paxel": {
+    "criteria": {
+      "any_paxel": "2026-04-03 00:22:20 +0100"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2026-04-03 00:59:48 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:progression/pinnacle": {
+    "criteria": {
+      "epic_feet": "2026-04-03 04:11:45 +0100",
+      "epic_hand": "2026-04-03 04:14:41 +0100"
+    },
+    "done": false
+  },
+  "constructionstick:template_angel": {
+    "criteria": {
+      "template_angel": "2026-04-03 00:32:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2026-04-03 00:59:48 +0100"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
